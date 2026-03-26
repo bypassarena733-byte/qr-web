@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Links</title>
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icons -->
+    <script
+      src="https://kit.fontawesome.com/4a3b1f73a2.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(135deg, #667eea, #764ba2);
+      }
+
+      .container {
+        background: #fff;
+        padding: 30px 25px;
+        border-radius: 20px;
+        width: 320px;
+        text-align: center;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      }
+
+      .profile {
+        margin-bottom: 20px;
+      }
+
+      .profile img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+      }
+
+      .profile h2 {
+        font-size: 20px;
+        color: #333;
+      }
+
+      .links a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        text-decoration: none;
+        margin: 12px 0;
+        padding: 12px;
+        border-radius: 12px;
+        color: white;
+        font-weight: 500;
+        transition: 0.3s;
+      }
+
+      .links a i {
+        font-size: 18px;
+      }
+
+      /* Platform Colors */
+      .instagram {
+        background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
+      }
+
+      .whatsapp {
+        background: #25d366;
+      }
+
+      .facebook {
+        background: #1877f2;
+      }
+
+      .website {
+        background: #333;
+      }
+
+      /* Hover Effects */
+      .links a:hover {
+        transform: translateY(-3px) scale(1.03);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      }
+
+      footer {
+        margin-top: 15px;
+        font-size: 12px;
+        color: #888;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="profile">
+        <img src="https://via.placeholder.com/100" alt="Profile" />
+        <h2>Your Name</h2>
+      </div>
+
+      <div class="links">
+        <a
+          href="https://instagram.com/yourusername"
+          target="_blank"
+          class="instagram"
+        >
+          <i class="fab fa-instagram"></i> Instagram
+        </a>
+
+        <a href="https://wa.me/91XXXXXXXXXX" target="_blank" class="whatsapp">
+          <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+
+        <a
+          href="https://facebook.com/yourusername"
+          target="_blank"
+          class="facebook"
+        >
+          <i class="fab fa-facebook"></i> Facebook
+        </a>
+
+        <a href="https://yourwebsite.com" target="_blank" class="website">
+          <i class="fas fa-globe"></i> Website
+        </a>
+      </div>
+
+      <footer>© 2026 Your Brand</footer>
+    </div>
+  </body>
+</html>
